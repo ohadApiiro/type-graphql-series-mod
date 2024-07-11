@@ -13,6 +13,7 @@ import { MeResolver } from "../modules/user/Me";
 import { ProfilePictureResolver } from "../modules/user/ProfilePicture";
 import { RegisterResolver } from "../modules/user/Register";
 
+
 export const createSchema = () =>
   buildSchema({
     resolvers: [
